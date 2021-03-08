@@ -39,24 +39,24 @@ namespace MISA.CukCuk.API.Service
 
         public int InsertCustomerGroup(CustomerGroup customerGroup)
         {
-            var properties = customerGroup.GetType().GetProperties();
-            var parameters = new DynamicParameters();
-            foreach (var property in properties)
-            {
-                var propertyName = property.Name;
-                var propertyValue = property.GetValue(customerGroup);
-                var propertyType = property.PropertyType;
-                if (propertyType == typeof(Guid) || propertyType == typeof(Guid?))
-                {
-                    parameters.Add($"@{propertyName}", propertyValue, DbType.String);
+            //var properties = customerGroup.GetType().GetProperties();
+            //var parameters = new DynamicParameters();
+            //foreach (var property in properties)
+            //{
+            //    var propertyName = property.Name;
+            //    var propertyValue = property.GetValue(customerGroup);
+            //    var propertyType = property.PropertyType;
+            //    if (propertyType == typeof(Guid) || propertyType == typeof(Guid?))
+            //    {
+            //        parameters.Add($"@{propertyName}", propertyValue, DbType.String);
 
-                }
-                else
-                {
-                    parameters.Add($"@{propertyName}", propertyValue);
-                }
+            //    }
+            //    else
+            //    {
+            //        parameters.Add($"@{propertyName}", propertyValue);
+            //    }
 
-            }
+            //}
             string connectionString = "Host = 47.241.69.179; " +
                "Port =3306; " +
                "Database = MF752_NMHUYEN_CukCuk; " +

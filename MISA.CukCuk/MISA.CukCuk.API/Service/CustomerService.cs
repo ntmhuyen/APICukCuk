@@ -33,7 +33,8 @@ namespace MISA.CukCuk.API.Service
                 "User Id = dev; " +
                 "Password = 12345678";
             IDbConnection dbConnection = new MySqlConnection(connectionString);
-            var customer = dbConnection.Query<Customer>($"SELECT * FROM Customer WHERE CustomerId = '{customerId.ToString()}'").FirstOrDefault();
+            //var customer = dbConnection.Query<Customer>($"SELECT * FROM Customer WHERE CustomerId = '{customerId.ToString()}'").FirstOrDefault();
+            var customer = dbConnection.Query<Customer>("Proc_GetCustomerById", new { CustomerId = customerId }, commandType: CommandType.StoredProcedure).FirstOrDefault();
             return customer;
         }
 
