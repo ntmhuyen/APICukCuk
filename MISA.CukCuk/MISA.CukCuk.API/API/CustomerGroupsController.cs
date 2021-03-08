@@ -91,5 +91,12 @@ namespace MISA.CukCuk.API.API
             }
 
         }
+
+        [HttpPut]
+        public void Put(CustomerGroup customerGroup)
+        {
+            var customerGroupService = new CustomerGroupService();
+            customerGroupService.UpdateCustomerGroup(customerGroup);
+        }
     }
 }

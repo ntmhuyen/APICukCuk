@@ -1,0 +1,9 @@
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.deps.json
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\bin\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csprojAssemblyReference.cache
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfoInputs.cache
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.AssemblyInfo.cs
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.csproj.CoreCompileInputs.cache
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.dll
+E:\GitHub_T\API\GitHub\APICukCuk\MISA.CukCuk\MISA.ApplicationCore\obj\Debug\netcoreapp3.1\MISA.ApplicationCore.pdb
